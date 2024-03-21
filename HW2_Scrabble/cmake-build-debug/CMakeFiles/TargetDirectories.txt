@@ -1,0 +1,3 @@
+C:/ECE361/HW2_Scrabble/cmake-build-debug/CMakeFiles/HW2_Scrabble.dir
+C:/ECE361/HW2_Scrabble/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/ECE361/HW2_Scrabble/cmake-build-debug/CMakeFiles/rebuild_cache.dir
