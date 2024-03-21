@@ -1,0 +1,170 @@
+   26/11/2023   14:10.55   /home/mobaxterm/HW5/mycode   main  whoami
+pnevi
+                                                                                                                                                                        ✓
+
+  26/11/2023   14:10.59   /home/mobaxterm/hw5/mycode   main  make
+gcc -std=c99 -Wall -c TempHumidBST.c -o TempHumidBST.o
+gcc -std=c99 -Wall -c bst.c -o bst.o
+gcc -std=c99 -Wall -c iom361_r2.c -o iom361_r2.o
+gcc -std=c99 -Wall -c float_rndm.c -o float_rndm.o
+gcc -std=c99 -Wall -o TempHumidBST_App TempHumidBST.o bst.o iom361_r2.o float_rndm.o
+                                                                                                                                                                        ✓
+
+  26/11/2023   14:11.02   /home/mobaxterm/hw5/mycode   main  ./TempHumidBST_App.exe
+Welcome to Phil's ECE361's Homework 5: Binary Search Tree
+This program initializes and populates a Binary Search Tree (BST) with temperature, humidity, and timestamp data. It then allows the user to interactively query the BST based on a specified date and displays the corresponding temperature and humidity values.
+Current working directory: /home/mobaxterm/hw5/mycode
+Initialize and read the I/O registers
+  ____  ____  ____  ____
+RedDC= 0% (  0), GrnDC= 0% (  0), BluDC= 0% (  0)       Enable=OFF
+
+
+
+New Binary Search Tree root node created
+Enter YEAR-MON-DAY to query from (YYYY-MM-DD): 2023-12-25
+Unix timestamp: 1703491200
+INFO(search): Starting search for timestamp 1703491200
+-> [1703404800] Sun Dec 24 00:00:00 2023
+
+-> [1703491200] Mon Dec 25 00:00:00 2023
+
+FOUND - Unix Timestamp: 1703491200 | Date: Mon Dec 25 00:00:00 2023
+Temp:48 | Humidity:77
+Enter YEAR-MON-DAY to query from (YYYY-MM-DD): 2023-11-25
+Unix timestamp: 1700899200
+INFO(search): Starting search for timestamp 1700899200
+-> [1701676800] Mon Dec  4 00:00:00 2023
+
+-> [1701072000] Mon Nov 27 00:00:00 2023
+
+-> [1700985600] Sun Nov 26 00:00:00 2023
+
+NOT FOUND
+Enter YEAR-MON-DAY to query from (YYYY-MM-DD): 2023-11-24
+Unix timestamp: 1700899200
+INFO(search): Starting search for timestamp 1700899200
+-> [1701676800] Mon Dec  4 00:00:00 2023
+
+-> [1701072000] Mon Nov 27 00:00:00 2023
+
+-> [1700985600] Sun Nov 26 00:00:00 2023
+
+NOT FOUND
+Enter YEAR-MON-DAY to query from (YYYY-MM-DD): 2023-11-23
+Unix timestamp: 1700726400
+INFO(search): Starting search for timestamp 1700726400
+-> [1701676800] Mon Dec  4 00:00:00 2023
+
+-> [1701072000] Mon Nov 27 00:00:00 2023
+
+-> [1700985600] Sun Nov 26 00:00:00 2023
+
+NOT FOUND
+Enter YEAR-MON-DAY to query from (YYYY-MM-DD): 2023-11-26
+Unix timestamp: 1700985600
+INFO(search): Starting search for timestamp 1700985600
+-> [1701676800] Mon Dec  4 00:00:00 2023
+
+-> [1701072000] Mon Nov 27 00:00:00 2023
+
+-> [1700985600] Sun Nov 26 00:00:00 2023
+
+FOUND - Unix Timestamp: 1700985600 | Date: Sun Nov 26 00:00:00 2023
+Temp:48 | Humidity:83
+Enter YEAR-MON-DAY to query from (YYYY-MM-DD): 2023-11-27
+Unix timestamp: 1701072000
+INFO(search): Starting search for timestamp 1701072000
+-> [1701676800] Mon Dec  4 00:00:00 2023
+
+-> [1701072000] Mon Nov 27 00:00:00 2023
+
+FOUND - Unix Timestamp: 1701072000 | Date: Mon Nov 27 00:00:00 2023
+Temp:44 | Humidity:76
+Enter YEAR-MON-DAY to query from (YYYY-MM-DD): 2023-12-4
+Unix timestamp: 1701676800
+INFO(search): Starting search for timestamp 1701676800
+-> [1701676800] Mon Dec  4 00:00:00 2023
+
+FOUND - Unix Timestamp: 1701676800 | Date: Mon Dec  4 00:00:00 2023
+Temp:46 | Humidity:80
+Enter YEAR-MON-DAY to query from (YYYY-MM-DD): 2023-12-20
+Unix timestamp: 1703059200
+INFO(search): Starting search for timestamp 1703059200
+-> [1701676800] Mon Dec  4 00:00:00 2023
+
+-> [1703318400] Sat Dec 23 00:00:00 2023
+
+-> [1702972800] Tue Dec 19 00:00:00 2023
+
+-> [1703145600] Thu Dec 21 00:00:00 2023
+
+-> [1703059200] Wed Dec 20 00:00:00 2023
+
+FOUND - Unix Timestamp: 1703059200 | Date: Wed Dec 20 00:00:00 2023
+Temp:43 | Humidity:81
+Enter YEAR-MON-DAY to query from (YYYY-MM-DD): 2023-12-24
+Unix timestamp: 1703404800
+INFO(search): Starting search for timestamp 1703404800
+FOUND - Unix Timestamp: 1703404800 | Date: Sun Dec 24 00:00:00 2023
+Temp:49 | Humidity:73
+Enter YEAR-MON-DAY to query from (YYYY-MM-DD): 2023-12-18
+Unix timestamp: 1702886400
+INFO(search): Starting search for timestamp 1702886400
+-> [1701676800] Mon Dec  4 00:00:00 2023
+
+-> [1703318400] Sat Dec 23 00:00:00 2023
+
+-> [1702972800] Tue Dec 19 00:00:00 2023
+
+-> [1701849600] Wed Dec  6 00:00:00 2023
+
+-> [1702108800] Sat Dec  9 00:00:00 2023
+
+-> [1702800000] Sun Dec 17 00:00:00 2023
+
+-> [1702886400] Mon Dec 18 00:00:00 2023
+
+FOUND - Unix Timestamp: 1702886400 | Date: Mon Dec 18 00:00:00 2023
+Temp:43 | Humidity:73
+Enter YEAR-MON-DAY to query from (YYYY-MM-DD): 2023-15-15
+Error Invalid input, Check your input.
+Enter YEAR-MON-DAY to query from (YYYY-MM-DD):
+Exiting Search.
+
+
+Temperature/Humidity Table:
+----------------------------------------------------------------
+2023-11-26 | Temperature: 48 (0007E799)| Humidity: 83 (000D66DA)
+2023-11-27 | Temperature: 44 (00078630)| Humidity: 76 (000C3098)
+2023-11-28 | Temperature: 51 (0008220D)| Humidity: 76 (000C39BA)
+2023-11-29 | Temperature: 49 (0007F5CA)| Humidity: 72 (000BA1E3)
+2023-11-30 | Temperature: 46 (0007BB58)| Humidity: 82 (000D3260)
+2023-12-01 | Temperature: 42 (00075FD3)| Humidity: 77 (000C7474)
+2023-12-02 | Temperature: 46 (0007B176)| Humidity: 77 (000C54C1)
+2023-12-03 | Temperature: 48 (0007E7EB)| Humidity: 73 (000BBE97)
+2023-12-04 | Temperature: 46 (0007BE20)| Humidity: 80 (000CED14)
+2023-12-05 | Temperature: 44 (00078D2B)| Humidity: 83 (000D4F3E)
+2023-12-06 | Temperature: 47 (0007C39F)| Humidity: 86 (000DD65A)
+2023-12-07 | Temperature: 49 (0007F088)| Humidity: 79 (000CA59B)
+2023-12-08 | Temperature: 49 (0007FE7F)| Humidity: 84 (000D866B)
+2023-12-09 | Temperature: 50 (00080EC7)| Humidity: 74 (000BE634)
+2023-12-10 | Temperature: 48 (0007E71D)| Humidity: 81 (000D0481)
+2023-12-11 | Temperature: 49 (0007FF3C)| Humidity: 86 (000DCC03)
+2023-12-12 | Temperature: 46 (0007B812)| Humidity: 80 (000CCEBE)
+2023-12-13 | Temperature: 51 (000821F4)| Humidity: 86 (000DC902)
+2023-12-14 | Temperature: 47 (0007C2D5)| Humidity: 77 (000C7377)
+2023-12-15 | Temperature: 49 (0007F740)| Humidity: 77 (000C6E5C)
+2023-12-16 | Temperature: 43 (00077164)| Humidity: 85 (000DBDDC)
+2023-12-17 | Temperature: 42 (0007607D)| Humidity: 80 (000CD001)
+2023-12-18 | Temperature: 43 (00078397)| Humidity: 73 (000BC7F1)
+2023-12-19 | Temperature: 51 (00081FA3)| Humidity: 82 (000D44FE)
+2023-12-20 | Temperature: 43 (00077DED)| Humidity: 81 (000CF696)
+2023-12-21 | Temperature: 47 (0007CCA5)| Humidity: 77 (000C762A)
+2023-12-22 | Temperature: 49 (0007FD04)| Humidity: 74 (000BE174)
+2023-12-23 | Temperature: 46 (0007B49A)| Humidity: 79 (000CA6FA)
+2023-12-24 | Temperature: 49 (0007F92D)| Humidity: 73 (000BBD4D)
+2023-12-24 | Temperature: 49 (0007F92D)| Humidity: 73 (000BBD4D)
+2023-12-25 | Temperature: 48 (0007DEA7)| Humidity: 77 (000C64AF)
+                                                                                                                                                                        ✓
+
+  26/11/2023   14:13.33   /home/mobaxterm/hw5/mycode   main 

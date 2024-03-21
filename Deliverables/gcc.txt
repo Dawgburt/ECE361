@@ -1,0 +1,1 @@
+gcc -std=c99 -Wall test_bst.c iom361_r2.c float_rndm.c bst.c -o test_bst

@@ -1,0 +1,86 @@
+  26/11/2023   14:15.17   /home/mobaxterm/HW5/mycode   main  whoami
+pnevi
+                                                                                                                                                                        ✓
+
+  26/11/2023   14:15.22   /home/mobaxterm/hw5/mycode   main  ls
+Deliverables              TempHumidBST_results.txt  float_rndm.c              iom361_r2.c               test_bst.c
+Makefile                  bst.c                     float_rndm.h              iom361_r2.h               test_bst.exe
+TempHumidBST.c            bst.h                     gcc.txt                   makefile_results.txt      test_bst_results.txt
+                                                                                                                                                                        ✓
+
+  26/11/2023   14:15.34   /home/mobaxterm/hw5/mycode   main  make
+gcc -std=c99 -Wall -c TempHumidBST.c -o TempHumidBST.o
+gcc -std=c99 -Wall -c bst.c -o bst.o
+gcc -std=c99 -Wall -c iom361_r2.c -o iom361_r2.o
+gcc -std=c99 -Wall -c float_rndm.c -o float_rndm.o
+gcc -std=c99 -Wall -o TempHumidBST_App TempHumidBST.o bst.o iom361_r2.o float_rndm.o
+                                                                                                                                                                        ✓
+
+  26/11/2023   14:15.38   /home/mobaxterm/hw5/mycode   main  ls
+Deliverables              TempHumidBST_App.exe      bst.o                     gcc.txt                   makefile_results.txt
+Makefile                  TempHumidBST_results.txt  float_rndm.c              iom361_r2.c               test_bst.c
+TempHumidBST.c            bst.c                     float_rndm.h              iom361_r2.h               test_bst.exe
+TempHumidBST.o            bst.h                     float_rndm.o              iom361_r2.o               test_bst_results.txt
+                                                                                                                                                                        ✓
+
+  26/11/2023   14:15.39   /home/mobaxterm/hw5/mycode   main  ./TempHumidBST_App.exe
+Welcome to Phil's ECE361's Homework 5: Binary Search Tree
+This program initializes and populates a Binary Search Tree (BST) with temperature, humidity, and timestamp data. It then allows the user to interactively query the BST based on a specified date and displays the corresponding temperature and humidity values.
+Current working directory: /home/mobaxterm/hw5/mycode
+Initialize and read the I/O registers
+  ____  ____  ____  ____
+RedDC= 0% (  0), GrnDC= 0% (  0), BluDC= 0% (  0)       Enable=OFF
+
+
+
+New Binary Search Tree root node created
+Enter YEAR-MON-DAY to query from (YYYY-MM-DD):
+Exiting Search.
+
+
+Temperature/Humidity Table:
+----------------------------------------------------------------
+2023-11-26 | Temperature: 51 (00081EF4)| Humidity: 80 (000CD838)
+2023-11-27 | Temperature: 47 (0007CF97)| Humidity: 85 (000DA146)
+2023-11-28 | Temperature: 42 (000767EF)| Humidity: 74 (000BDB18)
+2023-11-28 | Temperature: 42 (000767EF)| Humidity: 74 (000BDB18)
+2023-11-29 | Temperature: 47 (0007C2C9)| Humidity: 80 (000CE8D2)
+2023-11-30 | Temperature: 46 (0007C039)| Humidity: 75 (000C25EA)
+2023-12-01 | Temperature: 48 (0007E5C8)| Humidity: 85 (000DB945)
+2023-12-02 | Temperature: 46 (0007B88F)| Humidity: 82 (000D364F)
+2023-12-03 | Temperature: 49 (0007F9EA)| Humidity: 81 (000D0D1A)
+2023-12-04 | Temperature: 44 (000795B4)| Humidity: 83 (000D481B)
+2023-12-05 | Temperature: 43 (00077AA4)| Humidity: 79 (000CA505)
+2023-12-06 | Temperature: 49 (0007F0DB)| Humidity: 78 (000C8DFD)
+2023-12-07 | Temperature: 45 (0007A6AC)| Humidity: 74 (000BDB3C)
+2023-12-08 | Temperature: 47 (0007D6D0)| Humidity: 79 (000CA8FE)
+2023-12-09 | Temperature: 49 (0007FB33)| Humidity: 75 (000C06B3)
+2023-12-10 | Temperature: 50 (00080F90)| Humidity: 80 (000CDA74)
+2023-12-11 | Temperature: 51 (00082219)| Humidity: 75 (000C1071)
+2023-12-12 | Temperature: 46 (0007B8F0)| Humidity: 86 (000DC87E)
+2023-12-13 | Temperature: 50 (00080C90)| Humidity: 74 (000BE64E)
+2023-12-14 | Temperature: 51 (00082200)| Humidity: 82 (000D3255)
+2023-12-15 | Temperature: 46 (0007C1D6)| Humidity: 83 (000D4C34)
+2023-12-16 | Temperature: 51 (00081B19)| Humidity: 83 (000D48FB)
+2023-12-17 | Temperature: 42 (00076B25)| Humidity: 83 (000D56D8)
+2023-12-18 | Temperature: 51 (00081E3C)| Humidity: 76 (000C2E7C)
+2023-12-19 | Temperature: 48 (0007EB21)| Humidity: 82 (000D4351)
+2023-12-20 | Temperature: 45 (0007AA63)| Humidity: 74 (000BE37F)
+2023-12-21 | Temperature: 50 (00080AF2)| Humidity: 76 (000C4D80)
+2023-12-22 | Temperature: 48 (0007EB15)| Humidity: 85 (000DC116)
+2023-12-23 | Temperature: 49 (0007F54E)| Humidity: 78 (000C9E7E)
+2023-12-24 | Temperature: 48 (0007DAF7)| Humidity: 76 (000C2CBF)
+2023-12-25 | Temperature: 44 (000787A8)| Humidity: 74 (000BDE5F)
+                                                                                                                                                                        ✓
+
+  26/11/2023   14:15.50   /home/mobaxterm/hw5/mycode   main  make clean
+rm -f TempHumidBST_App TempHumidBST.o bst.o iom361_r2.o float_rndm.o   TempHumidBST_App
+                                                                                                                                                                        ✓
+
+  26/11/2023   14:15.54   /home/mobaxterm/hw5/mycode   main  ls
+Deliverables              TempHumidBST_results.txt  float_rndm.c              iom361_r2.c               test_bst.c
+Makefile                  bst.c                     float_rndm.h              iom361_r2.h               test_bst.exe
+TempHumidBST.c            bst.h                     gcc.txt                   makefile_results.txt      test_bst_results.txt
+                                                                                                                                                                        ✓
+
+  26/11/2023   14:15.55   /home/mobaxterm/hw5/mycode   main 

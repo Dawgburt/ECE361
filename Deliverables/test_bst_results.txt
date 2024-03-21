@@ -1,0 +1,230 @@
+When we find our node and print the data, you can see it all matches up. So we can say that our test results are good and our BST ADT works as expected.
+
+  26/11/2023   13:29.08   /home/mobaxterm/HW5/mycode   main  whoami
+pnevi
+
+✓
+
+ 26/11/2023   13:29.11   /home/mobaxterm/HW5/mycode   main  gcc -std=c99 -Wall -o test_bst test_bst.c bst.c iom361_r2.c float_rndm.c
+                                                                                                                                                                        ✓
+
+  26/11/2023   13:29.13   /home/mobaxterm/HW5/mycode   main  ./test_bst
+Welcome to Phil's ECE361's Homework 5: Binary Search Tree Test Program
+This program tests the functionality of the BST ADT
+Current working directory: /home/mobaxterm/hw5/mycode
+Initialize and read the I/O registers
+  ____  ____  ____  ____
+RedDC= 0% (  0), GrnDC= 0% (  0), BluDC= 0% (  0)       Enable=OFF
+
+
+
+New Binary Search Tree root node created
+
+Menu:
+1. Search for a node
+2. Print BST in-order
+3. Exit
+Enter your choice: 2
+2023-11-26 | Temperature: 49 (0007ED36)| Humidity: 81 (000D103F)
+2023-11-27 | Temperature: 51 (000815B1)| Humidity: 79 (000CC1D9)
+2023-11-28 | Temperature: 43 (00077AB4)| Humidity: 80 (000CF4DE)
+2023-11-29 | Temperature: 44 (0007956E)| Humidity: 77 (000C77AF)
+2023-11-29 | Temperature: 44 (0007956E)| Humidity: 77 (000C77AF)
+2023-11-30 | Temperature: 47 (0007C704)| Humidity: 84 (000D865A)
+2023-12-01 | Temperature: 49 (0007FB97)| Humidity: 74 (000BD9D2)
+2023-12-02 | Temperature: 42 (00076E13)| Humidity: 85 (000DAC9C)
+2023-12-03 | Temperature: 45 (0007A7A5)| Humidity: 81 (000D0A38)
+2023-12-04 | Temperature: 44 (00078A00)| Humidity: 84 (000D8CD2)
+2023-12-05 | Temperature: 51 (000817A4)| Humidity: 75 (000C0671)
+2023-12-06 | Temperature: 51 (00081843)| Humidity: 80 (000CDA2C)
+2023-12-07 | Temperature: 43 (00078147)| Humidity: 85 (000DA1F9)
+2023-12-08 | Temperature: 51 (0008159F)| Humidity: 85 (000DBE10)
+2023-12-09 | Temperature: 50 (00080704)| Humidity: 84 (000D85DF)
+2023-12-10 | Temperature: 45 (0007A50A)| Humidity: 82 (000D3680)
+2023-12-11 | Temperature: 48 (0007E839)| Humidity: 79 (000CBC4F)
+2023-12-12 | Temperature: 45 (0007A29E)| Humidity: 84 (000D8710)
+2023-12-13 | Temperature: 49 (0007F854)| Humidity: 81 (000D08B8)
+2023-12-14 | Temperature: 47 (0007D3A9)| Humidity: 85 (000DC25C)
+2023-12-15 | Temperature: 49 (0007FECC)| Humidity: 75 (000C1B9B)
+2023-12-16 | Temperature: 46 (0007BDCC)| Humidity: 87 (000DF4C3)
+2023-12-17 | Temperature: 46 (0007B26E)| Humidity: 78 (000C81C0)
+2023-12-18 | Temperature: 42 (000766F3)| Humidity: 83 (000D68FB)
+2023-12-19 | Temperature: 43 (00077969)| Humidity: 84 (000D86EC)
+2023-12-20 | Temperature: 44 (00078C03)| Humidity: 86 (000DE965)
+2023-12-21 | Temperature: 48 (0007E378)| Humidity: 74 (000BF3C8)
+2023-12-22 | Temperature: 44 (0007888D)| Humidity: 79 (000CA7BE)
+2023-12-23 | Temperature: 50 (000804F7)| Humidity: 86 (000DD3DA)
+2023-12-24 | Temperature: 49 (0007EE1E)| Humidity: 74 (000BF89C)
+2023-12-25 | Temperature: 49 (0007EE2E)| Humidity: 74 (000BE63E)
+
+Menu:
+1. Search for a node
+2. Print BST in-order
+3. Exit
+Enter your choice: 1
+Enter the date to search for (YEAR-MONTH-DAY): 2023-11-26
+INFO(search): Starting search for timestamp 1700985600
+-> [1701072000] Mon Nov 27 00:00:00 2023
+
+-> [1700985600] Sun Nov 26 00:00:00 2023
+
+FOUND - Unix Timestamp: 1700985600 | Date: Sun Nov 26 00:00:00 2023
+Temp:49 | Humidity:81
+
+Menu:
+1. Search for a node
+2. Print BST in-order
+3. Exit
+Enter your choice: 1
+Enter the date to search for (YEAR-MONTH-DAY): 2023-11-27
+INFO(search): Starting search for timestamp 1701072000
+-> [1701072000] Mon Nov 27 00:00:00 2023
+
+FOUND - Unix Timestamp: 1701072000 | Date: Mon Nov 27 00:00:00 2023
+Temp:51 | Humidity:79
+
+Menu:
+1. Search for a node
+2. Print BST in-order
+3. Exit
+Enter your choice: 1
+Enter the date to search for (YEAR-MONTH-DAY): 2023-12-25
+INFO(search): Starting search for timestamp 1703491200
+-> [1701244800] Wed Nov 29 00:00:00 2023
+
+-> [1701331200] Thu Nov 30 00:00:00 2023
+
+-> [1703145600] Thu Dec 21 00:00:00 2023
+
+-> [1703232000] Fri Dec 22 00:00:00 2023
+
+-> [1703404800] Sun Dec 24 00:00:00 2023
+
+-> [1703491200] Mon Dec 25 00:00:00 2023
+
+FOUND - Unix Timestamp: 1703491200 | Date: Mon Dec 25 00:00:00 2023
+Temp:49 | Humidity:74
+
+Menu:
+1. Search for a node
+2. Print BST in-order
+3. Exit
+Enter your choice: 1
+Enter the date to search for (YEAR-MONTH-DAY): 2023-11-29
+INFO(search): Starting search for timestamp 1701244800
+FOUND - Unix Timestamp: 1701244800 | Date: Wed Nov 29 00:00:00 2023
+Temp:44 | Humidity:77
+
+Menu:
+1. Search for a node
+2. Print BST in-order
+3. Exit
+Enter your choice: 1
+Enter the date to search for (YEAR-MONTH-DAY): 2023-12-24
+INFO(search): Starting search for timestamp 1703404800
+-> [1701244800] Wed Nov 29 00:00:00 2023
+
+-> [1701331200] Thu Nov 30 00:00:00 2023
+
+-> [1703145600] Thu Dec 21 00:00:00 2023
+
+-> [1703232000] Fri Dec 22 00:00:00 2023
+
+-> [1703404800] Sun Dec 24 00:00:00 2023
+
+FOUND - Unix Timestamp: 1703404800 | Date: Sun Dec 24 00:00:00 2023
+Temp:49 | Humidity:74
+
+Menu:
+1. Search for a node
+2. Print BST in-order
+3. Exit
+Enter your choice: 1
+Enter the date to search for (YEAR-MONTH-DAY): 2023-12-22
+INFO(search): Starting search for timestamp 1703232000
+-> [1701244800] Wed Nov 29 00:00:00 2023
+
+-> [1701331200] Thu Nov 30 00:00:00 2023
+
+-> [1703145600] Thu Dec 21 00:00:00 2023
+
+-> [1703232000] Fri Dec 22 00:00:00 2023
+
+FOUND - Unix Timestamp: 1703232000 | Date: Fri Dec 22 00:00:00 2023
+Temp:44 | Humidity:79
+
+Menu:
+1. Search for a node
+2. Print BST in-order
+3. Exit
+Enter your choice: 1
+Enter the date to search for (YEAR-MONTH-DAY): 2023-15-20
+INFO(search): Starting search for timestamp 1709366400
+-> [1701244800] Wed Nov 29 00:00:00 2023
+
+-> [1701331200] Thu Nov 30 00:00:00 2023
+
+-> [1703145600] Thu Dec 21 00:00:00 2023
+
+-> [1703232000] Fri Dec 22 00:00:00 2023
+
+-> [1703404800] Sun Dec 24 00:00:00 2023
+
+-> [1703491200] Mon Dec 25 00:00:00 2023
+
+NOT FOUND
+
+Menu:
+1. Search for a node
+2. Print BST in-order
+3. Exit
+Enter your choice: 1
+Enter the date to search for (YEAR-MONTH-DAY): 2023-2-2
+Invalid date format. Try again.
+INFO(search): Starting search for timestamp 1675324800
+-> [1701072000] Mon Nov 27 00:00:00 2023
+
+-> [1700985600] Sun Nov 26 00:00:00 2023
+
+NOT FOUND
+
+Menu:
+1. Search for a node
+2. Print BST in-order
+3. Exit
+Enter your choice: 1
+Enter the date to search for (YEAR-MONTH-DAY): 2022-12-12
+INFO(search): Starting search for timestamp 1670832000
+-> [1701072000] Mon Nov 27 00:00:00 2023
+
+-> [1700985600] Sun Nov 26 00:00:00 2023
+
+NOT FOUND
+
+Menu:
+1. Search for a node
+2. Print BST in-order
+3. Exit
+Enter your choice: 1
+Enter the date to search for (YEAR-MONTH-DAY): 2023-12-26
+INFO(search): Starting search for timestamp 1703577600
+-> [1701244800] Wed Nov 29 00:00:00 2023
+
+-> [1701331200] Thu Nov 30 00:00:00 2023
+
+-> [1703145600] Thu Dec 21 00:00:00 2023
+
+-> [1703232000] Fri Dec 22 00:00:00 2023
+
+-> [1703404800] Sun Dec 24 00:00:00 2023
+
+-> [1703491200] Mon Dec 25 00:00:00 2023
+
+NOT FOUND
+
+Menu:
+1. Search for a node
+2. Print BST in-order
+3. Exit
+Enter your choice: 3
+Exiting the program.
