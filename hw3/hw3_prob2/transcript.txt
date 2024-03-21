@@ -1,0 +1,84 @@
+  04/11/2023   21:13.57   /home/mobaxterm/hw3_prob2   master  whoami
+pnevi
+                                                                                                                                                                                                             ✓
+
+  04/11/2023   21:14.05   /home/mobaxterm/hw3_prob2   master  gcc -Wall -std=c99 -o hw3_prob2.exe  hw3_prob2.c iom361.o colors.c
+                                                                                                                                                                                                             ✓
+
+  04/11/2023   21:14.08   /home/mobaxterm/hw3_prob2   master  ./hw3_prob2.exe
+Welcome to ECE361 HW3 Problem 2
+This program takes in a R,B,G value from the s struct
+(0..255) and conacts it into a 8-digit HEX number that can
+be used to target IO registers of the RBG LED
+By Phil Nevins (pnevins@pdx.edu)
+Current working directory: /home/mobaxterm/hw3_prob2
+
+Initialize and read the I/O registers
+  ____  ____  ____  ____
+RedDC= 0% (  0), GrnDC= 0% (  0), BluDC= 0% (  0)       Enable=OFF
+
+SHOWING DATA...
+INFO[main()]:  Retrieved item[0] sw=80196680, duty cycles= {25, 102, 128}
+INFO[main()]:  Retrieved item[1] sw=80808080, duty cycles= {128, 128, 128}
+INFO[main()]:  Retrieved item[2] sw=80ffffff, duty cycles= {255, 255, 255}
+INFO[main()]:  Retrieved item[3] sw=80000000, duty cycles= {0, 0, 0}
+INFO[main()]:  Retrieved item[4] sw=801e3c5a, duty cycles= {30, 60, 90}
+INFO[main()]:  Retrieved item[5] sw=80de6f00, duty cycles= {222, 111, 0}
+INFO[main()]:  Retrieved item[6] sw=80019bff, duty cycles= {1, 155, 255}
+INFO[main()]:  Retrieved item[7] sw=80ffffff, duty cycles= {255, 255, 255}
+INFO[main()]:  Retrieved item[8] sw=80196680, duty cycles= {25, 102, 128}
+INFO[main()]:  Retrieved item[9] sw=801e3c5a, duty cycles= {30, 60, 90}
+INFO[main()]:  Retrieved item[10] sw=80ffffff, duty cycles= {255, 255, 255}
+INFO[main()]:  Retrieved item[11] sw=80000000, duty cycles= {0, 0, 0}
+
+INFO(main()]: There are 12 data items to send to I/O module
+
+SENDING ITEM 0 to I/O MODULE...
+  _oo_  _oo_  o___  ____
+RedDC= 9% ( 25), GrnDC=40% (102), BluDC=50% (128)       Enable=ON
+
+SENDING ITEM 1 to I/O MODULE...
+  o___  ____  o___  ____
+RedDC=50% (128), GrnDC=50% (128), BluDC=50% (128)       Enable=ON
+
+SENDING ITEM 2 to I/O MODULE...
+  oooo  oooo  oooo  oooo
+RedDC=100% (255), GrnDC=100% (255), BluDC=100% (255)    Enable=ON
+
+SENDING ITEM 3 to I/O MODULE...
+  ____  ____  ____  ____
+RedDC= 0% (  0), GrnDC= 0% (  0), BluDC= 0% (  0)       Enable=ON
+
+SENDING ITEM 4 to I/O MODULE...
+  __oo  oo__  _o_o  o_o_
+RedDC=11% ( 30), GrnDC=23% ( 60), BluDC=35% ( 90)       Enable=ON
+
+SENDING ITEM 5 to I/O MODULE...
+  _oo_  oooo  ____  ____
+RedDC=87% (222), GrnDC=43% (111), BluDC= 0% (  0)       Enable=ON
+
+SENDING ITEM 6 to I/O MODULE...
+  o__o  o_oo  oooo  oooo
+RedDC= 0% (  1), GrnDC=60% (155), BluDC=100% (255)      Enable=ON
+
+SENDING ITEM 7 to I/O MODULE...
+  oooo  oooo  oooo  oooo
+RedDC=100% (255), GrnDC=100% (255), BluDC=100% (255)    Enable=ON
+
+SENDING ITEM 8 to I/O MODULE...
+  _oo_  _oo_  o___  ____
+RedDC= 9% ( 25), GrnDC=40% (102), BluDC=50% (128)       Enable=ON
+
+SENDING ITEM 9 to I/O MODULE...
+  __oo  oo__  _o_o  o_o_
+RedDC=11% ( 30), GrnDC=23% ( 60), BluDC=35% ( 90)       Enable=ON
+
+SENDING ITEM 10 to I/O MODULE...
+  oooo  oooo  oooo  oooo
+RedDC=100% (255), GrnDC=100% (255), BluDC=100% (255)    Enable=ON
+
+SENDING ITEM 11 to I/O MODULE...
+  ____  ____  ____  ____
+RedDC= 0% (  0), GrnDC= 0% (  0), BluDC= 0% (  0)       Enable=ON
+
+                                                                                                                                                                                                            

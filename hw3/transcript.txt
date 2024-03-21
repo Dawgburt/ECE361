@@ -1,0 +1,27 @@
+29/10/2023   14:11.56   /home/mobaxterm/Desktop/COLLEGE/ECE 361/hw3   master  whoami
+pnevi
+    
+                                                                                                                                                                                                         
+29/10/2023   14:12.06   /home/mobaxterm/Desktop/COLLEGE/ECE 361/hw3   master  gcc -Wall -std=c99 -o sort_words.exe  *.c
+   
+                                                                                                                                                                                                          
+29/10/2023   14:12.08   /home/mobaxterm/Desktop/COLLEGE/ECE 361/hw3   master  ./sort_words.exe
+ECE361 HW3 Word Sort Problem
+By Phil Nevins (pnevins@pdx.edu)
+Current working directory: /drives/C/Users/pnevi/OneDrive/Desktop/COLLEGE/ECE 361/hw3
+
+Enter words (max 20 characters each, empty line to sort words alphabetically):
+bison
+elephant
+zebra
+aardvark
+yetta
+unicorn
+goat
+lamb
+limb
+hello
+zebras
+
+Sorted words:
+aardvark bison elephant goat hello lamb limb unicorn yetta zebra zebras 

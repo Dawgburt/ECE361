@@ -1,0 +1,29 @@
+[2023-10-22 23:21.10]  /drives/g/My Drive/PSUCourses/ece361f22/assignments/hw3/solutions/prob3
+[roykr.DESKTOP-UAMUI66] ➤ whoami
+roykr
+
+[2023-10-22 23:21.12]  /drives/g/My Drive/PSUCourses/ece361f22/assignments/hw3/solutions/prob3
+[roykr.DESKTOP-UAMUI66] ➤ gcc -Wall -std=c99 -o sort_words.exe  *.c
+
+[2023-10-22 23:21.18]  /drives/g/My Drive/PSUCourses/ece361f22/assignments/hw3/solutions/prob3
+[roykr.DESKTOP-UAMUI66] ➤ ./sort_words.exe
+ECE 361 word sorting application using dynamic memory allocation by Roy Kravitz (roy.kravitz@pdx.edu)
+Current working directory: /drives/g/My Drive/PSUCourses/ece361f22/assignments/hw3/solutions/prob3
+
+Enter word: bison
+Enter word: elephant
+Enter word: zebra
+Enter word: aardvark
+Enter word: unicorn
+Enter word: yetta
+Enter word: goat
+Enter word: lamb
+Enter word:
+
+In sorted order: aardvark bison elephant goat lamb unicorn yetta zebra
+Thank you for using Roy's word sorting application
+
+[2023-10-22 23:22.01]  /drives/g/My Drive/PSUCourses/ece361f22/assignments/hw3/solutions/prob3
+[roykr.DESKTOP-UAMUI66] ➤
+
+

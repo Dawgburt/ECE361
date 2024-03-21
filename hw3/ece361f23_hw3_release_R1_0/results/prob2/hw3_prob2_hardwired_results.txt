@@ -1,0 +1,51 @@
+[2023-10-22 23:06.32]  /drives/c/Users/roykr/psuproj/ece361f23/hw3/prob2
+[roykr.DESKTOP-UAMUI66] ➤ whoami
+roykr
+
+[2023-10-22 23:06.36]  /drives/c/Users/roykr/psuproj/ece361f23/hw3/prob2
+[roykr.DESKTOP-UAMUI66] ➤ ls *.o
+colors.o             iom361.o             longestLineHelper.o
+
+[2023-10-22 23:06.41]  /drives/c/Users/roykr/psuproj/ece361f23/hw3/prob2
+[roykr.DESKTOP-UAMUI66] ➤ gcc -Wall -std=c99 -o hw3_prob2.exe  hw3_prob2.c colors.o longestLineHelper.o iom361.o
+
+[2023-10-22 23:06.52]  /drives/c/Users/roykr/psuproj/ece361f23/hw3/prob2
+[roykr.DESKTOP-UAMUI66] ➤ ./hw3_prob2
+ECE 361 - Homework #3, Problem #2 (hardwired) (roy.kravitz@pdx.edu)
+Current working directory: /drives/c/Users/roykr/psuproj/ece361f23/hw3/prob2
+
+INITIALIZING iom361 WITH 16 SWITCHES and 16 LEDs
+  ____  ____  ____  ____
+RedDC= 0% (  0), GrnDC= 0% (  0), BluDC= 0% (  0)       Enable=OFF
+INFO[main()]: iom361 is alive and at your service
+
+SHOWING DATA...
+INFO[main()]:  Retrieved item[0] sw=0000a5a5, duty cycles= {25, 102, 128}
+INFO[main()]:  Retrieved item[1] sw=00005a5a, duty cycles= {128, 128, 128}
+INFO[main()]:  Retrieved item[2] sw=0000ffff, duty cycles= {255, 255, 255}
+INFO[main()]:  Retrieved item[3] sw=00000000, duty cycles= {0, 0, 0}
+INFO[main()]:  Retrieved item[4] sw=0000ece3, duty cycles= {30, 60, 90}
+INFO(main()]: There are 5 data items to send to I/O module
+
+SENDING ITEM 0 to I/O MODULE...
+  o_o_  _o_o  o_o_  _o_o
+RedDC= 9% ( 25), GrnDC=40% (102), BluDC=50% (128)       Enable=ON
+
+SENDING ITEM 1 to I/O MODULE...
+  _o_o  o_o_  _o_o  o_o_
+RedDC=50% (128), GrnDC=50% (128), BluDC=50% (128)       Enable=ON
+
+SENDING ITEM 2 to I/O MODULE...
+  oooo  oooo  oooo  oooo
+RedDC=100% (255), GrnDC=100% (255), BluDC=100% (255)    Enable=ON
+
+SENDING ITEM 3 to I/O MODULE...
+  ____  ____  ____  ____
+RedDC= 0% (  0), GrnDC= 0% (  0), BluDC= 0% (  0)       Enable=ON
+
+SENDING ITEM 4 to I/O MODULE...
+  ooo_  oo__  ooo_  __oo
+RedDC=11% ( 30), GrnDC=23% ( 60), BluDC=35% ( 90)       Enable=ON
+
+[2023-10-22 23:07.12]  /drives/c/Users/roykr/psuproj/ece361f23/hw3/prob2
+[roykr.DESKTOP-UAMUI66] ➤

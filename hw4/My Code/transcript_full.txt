@@ -1,0 +1,341 @@
+  19/11/2023   14:52.39   /home/mobaxterm/hw4/My Code/RPN Calculator   master  whoami
+pnevi
+                                                                                                                                                                                                             ✓
+
+  19/11/2023   14:52.43   /home/mobaxterm/hw4/My Code/RPN Calculator   master  ls
+LinkedList.c         LinkedList.h         RPN_Calculator.c     longestLineHelper.c  longestLineHelper.h  longestLineHelper.o  stackADT_LL.c        stackADT_LL.h        test_LinkedList.c    test_stackADT_LL.c
+                                                                                                                                                                                                             ✓
+
+LINKED LIST:
+  19/11/2023   14:52.44   /home/mobaxterm/hw4/My Code/RPN Calculator   master  gcc -c LinkedList.c -o LinkedList.o
+
+✓
+
+  19/11/2023   14:53.52   /home/mobaxterm/hw4/My Code/RPN Calculator   master  gcc -std=c99 -Wall test_LinkedList.c LinkedList.o  -o test_LinkedList
+                                                                                                                                                                                                             ✓
+
+  19/11/2023   14:54.21   /home/mobaxterm/hw4/My Code/RPN Calculator   master  ./test_LinkedList.exe
+Linked List ADT test program (RK)
+
+Created a new Linked List
+Number of nodes in List: 0
+Inserting 5 and 2 into list...
+ Data from the Linked list nodes are:  node(1)= 5, node(2)= 2
+ERROR: LinkedList ADT(getNodeDataInLList): Position 3 is not in the list
+Number of nodes in List: 2
+List contents: 5 2
+Deleting a node from list...
+Number of nodes in List: 1
+List contents: 2
+
+
+
+
+
+STACK:
+
+  19/11/2023   14:55.04   /home/mobaxterm/hw4/My Code/RPN Calculator   master  gcc -c stackADT_LL.c -o stackADT_LL.o
+                                                                                                                                                                                                             ✓
+
+  19/11/2023   14:55.26   /home/mobaxterm/hw4/My Code/RPN Calculator   master  ls
+LinkedList.c         LinkedList.o         longestLineHelper.c  longestLineHelper.o  stackADT_LL.h        test_LinkedList.c    test_stackADT_LL.c
+LinkedList.h         RPN_Calculator.c     longestLineHelper.h  stackADT_LL.c        stackADT_LL.o        test_LinkedList.exe
+                                                                                                                                                                                                             ✓
+
+  19/11/2023   14:55.29   /home/mobaxterm/hw4/My Code/RPN Calculator   master  gcc -std=c99 -Wall test_stackADT_LL.c stackADT_LL.o LinkedList.o -o test_stackADT_LL
+                                                                                                                                                                                                             ✓
+
+  19/11/2023   14:56.23   /home/mobaxterm/hw4/My Code/RPN Calculator   master  ./test_stackADT_LL
+Minimal test program for the stack ADT
+Current working directory: /home/mobaxterm/hw4/My Code/RPN Calculator
+
+
+Top element is 10
+Stack size is 11
+Popped element is 10
+Popped element is 9
+Popped element is 8
+Popped element is 7
+Popped element is 6
+Popped element is 5
+Popped element is 4
+Popped element is 3
+Popped element is 2
+Popped element is 1
+Popped element is 0
+Stack is empty                                                                                                                                                                                               ✓
+
+RPN Calculator
+  19/11/2023   15:09.51   /home/mobaxterm/hw4/My Code/RPN Calculator   master  gcc -std=c99 -Wall RPN_Calculator.c LinkedList.o stackADT_LL.o longestLineHelper.o -o RPN_Calculator
+RPN_Calculator.c: In function ‘main’:
+RPN_Calculator.c:75:9: warning: variable ‘len’ set but not used [-Wunused-but-set-variable]
+   75 |     int len;
+      |         ^~~
+                                                                                                                                                                                                             ✓
+  19/11/2023   15:09.53   /home/mobaxterm/hw4/My Code/RPN Calculator   master  ./RPN_Calculator
+Enter a valid RPN equation to calculate (or type 'exit' to quit): 1 2 3 + +
+Result of the RPN expression: 6
+Enter a valid RPN equation to calculate (or type 'exit' to quit): 1 2 3 +
+Invalid RPN expression. Not enough operands.3
+Enter a valid RPN equation to calculate (or type 'exit' to quit): 1 2 3 + + +
+Invalid RPN expression. Too many operands.2
+Enter a valid RPN equation to calculate (or type 'exit' to quit): 1 2 3 + + =
+Result of the RPN expression: 6
+Enter a valid RPN equation to calculate (or type 'exit' to quit): 1 2 3 * + =
+Result of the RPN expression: 7
+Enter a valid RPN equation to calculate (or type 'exit' to quit): 5 8 * 4 0 - / =
+Result of the RPN expression: 10
+Enter a valid RPN equation to calculate (or type 'exit' to quit): 5 8 * 4 9 - / =
+Result of the RPN expression: -8
+Enter a valid RPN equation to calculate (or type 'exit' to quit): 5 0 /
+Division by zero is not allowed.
+Enter a valid RPN equation to calculate (or type 'exit' to quit): 1 2 3 4 5 + + + + + =
+Invalid RPN expression. Too many operands.2
+Enter a valid RPN equation to calculate (or type 'exit' to quit): 1 2 3 4 5 + + + + =
+Result of the RPN expression: 15
+Enter a valid RPN equation to calculate (or type 'exit' to quit): exit
+                                                                                                                                                                                                             ✓
+
+
+
+Temp_Humidity_Sensor
+
+  19/11/2023   15:11.36   /home/mobaxterm/hw4/My Code/RPN Calculator   master  ls
+LinkedList.c          LinkedList.o          RPN_Calculator.exe    longestLineHelper.h   stackADT_LL.c         stackADT_LL.o         test_LinkedList.exe   test_stackADT_LL.exe
+LinkedList.h          RPN_Calculator.c      longestLineHelper.c   longestLineHelper.o   stackADT_LL.h         test_LinkedList.c     test_stackADT_LL.c
+                                                                                                                                                                                                             ✓
+
+  19/11/2023   15:23.58   /home/mobaxterm/hw4/My Code/RPN Calculator   master  cd ..
+                                                                                                                                                                                                             ✓
+
+  19/11/2023   15:24.00   /home/mobaxterm/hw4/My Code   master  ls
+RPN Calculator        stack ADT LL          temp_humidity_sensor  transcript_full.txt
+                                                                                                                                                                                                             ✓
+
+  19/11/2023   15:24.01   /home/mobaxterm/hw4/My Code   master  cd temp_humidity_sensor
+                                                                                                                                                                                                             ✓
+
+  19/11/2023   15:24.10   /home/mobaxterm/hw4/My Code/temp_humidity_sensor   master  ls
+float_rndm.c  float_rndm.h  iom361_r2.c   iom361_r2.h   main.c
+                                                                                                                                                                                                             ✓
+
+  19/11/2023   15:24.12   /home/mobaxterm/hw4/My Code/temp_humidity_sensor   master  gcc -c float_rndm.c -o float_rndm.o
+                                                                                                                                                                                                             ✓
+
+  19/11/2023   15:24.44   /home/mobaxterm/hw4/My Code/temp_humidity_sensor   master  gcc -c iom361_r2.c -o iom361_r2.o
+                                                                                                                                                                                                             ✓
+
+  19/11/2023   15:24.58   /home/mobaxterm/hw4/My Code/temp_humidity_sensor   master  ls
+float_rndm.c  float_rndm.h  float_rndm.o  iom361_r2.c   iom361_r2.h   iom361_r2.o   main.c
+
+✓
+
+  19/11/2023   16:26.53   /home/mobaxterm/hw4/My Code/temp_humidity_sensor   master  gcc -std=c99 -Wall main.c iom361_r2.o float_rndm.o -o Temp_Humidity_Sensor
+main.c: In function ‘main’:
+main.c:91:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   91 |             if (humidity_readings[i] != -1)
+      |             ^~
+main.c:93:17: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   93 |                 printf("\n");
+      |                 ^~~~~~
+                                                                                                                                                                                                             ✓
+
+  19/11/2023   16:27.10   /home/mobaxterm/hw4/My Code/temp_humidity_sensor   master  ./Temp_Humidity_Sensor
+ECE361 HW4 Problem 3
+Utilize IOM361_r2 to manipulate random temp and humidity values
+By Phil Nevins (pnevins@pdx.edu)
+Current working directory: /home/mobaxterm/hw4/My Code/temp_humidity_sensor
+
+Initializing the I/O registers...
+
+  ____  ____  ____  ____
+RedDC= 0% (  0), GrnDC= 0% (  0), BluDC= 0% (  0)       Enable=OFF
+Initialized successfully!
+
+Adding (00078A44) 44.251C to temp_readings[1] and (000C910D) 78.541 to humidity_readings[1]...
+Adding (0007BBA8) 46.663C to temp_readings[2] and (000BF33D) 74.688 to humidity_readings[2]...
+Adding (0007A623) 45.612C to temp_readings[3] and (000C37E2) 76.364 to humidity_readings[3]...
+Adding (0007A5DD) 45.599C to temp_readings[4] and (000C3055) 76.180 to humidity_readings[4]...
+Adding (00080882) 50.415C to temp_readings[5] and (000C5079) 76.965 to humidity_readings[5]...
+Adding (00082421) 51.764C to temp_readings[6] and (000D0747) 81.428 to humidity_readings[6]...
+Adding (0007C11E) 46.930C to temp_readings[7] and (000DF390) 87.196 to humidity_readings[7]...
+Adding (00080B8B) 50.564C to temp_readings[8] and (000C9335) 78.594 to humidity_readings[8]...
+
+Sorting temperature and humidity readings into Low to High...
+
+Temp Table: (Low to High)
+temp_readings[1]: Temperature 44.251C  (00078A44)
+temp_readings[2]: Temperature 45.599C  (0007A5DD)
+temp_readings[3]: Temperature 45.612C  (0007A623)
+temp_readings[4]: Temperature 46.663C  (0007BBA8)
+temp_readings[5]: Temperature 46.930C  (0007C11E)
+temp_readings[6]: Temperature 50.415C  (00080882)
+temp_readings[7]: Temperature 50.564C  (00080B8B)
+temp_readings[8]: Temperature 51.764C  (00082421)
+Averaging readings...
+Total: 381.80
+Average Temperature: 47.725C
+
+Humidity Table: (Low to High)
+humidity_readings[1]: Humidity 74.688%  (000BF33D)
+humidity_readings[2]: Humidity 76.180%  (000C3055)
+humidity_readings[3]: Humidity 76.364%  (000C37E2)
+humidity_readings[4]: Humidity 76.965%  (000C5079)
+humidity_readings[5]: Humidity 78.541%  (000C910D)
+humidity_readings[6]: Humidity 78.594%  (000C9335)
+humidity_readings[7]: Humidity 81.428%  (000D0747)
+humidity_readings[8]: Humidity 87.196%  (000DF390)
+Averaging readings...
+Total: 629.96
+Average Humidity: 78.745%
+                                                                                                                                                                                                             ✓
+
+  19/11/2023   16:27.11   /home/mobaxterm/hw4/My Code/temp_humidity_sensor   master  ./Temp_Humidity_Sensor
+ECE361 HW4 Problem 3
+Utilize IOM361_r2 to manipulate random temp and humidity values
+By Phil Nevins (pnevins@pdx.edu)
+Current working directory: /home/mobaxterm/hw4/My Code/temp_humidity_sensor
+
+Initializing the I/O registers...
+
+  ____  ____  ____  ____
+RedDC= 0% (  0), GrnDC= 0% (  0), BluDC= 0% (  0)       Enable=OFF
+Initialized successfully!
+
+Adding (0007CBD4) 47.453C to temp_readings[1] and (000D71E4) 84.031 to humidity_readings[1]...
+Adding (0007BF30) 46.835C to temp_readings[2] and (000CA8E2) 79.123 to humidity_readings[2]...
+Adding (0007FD77) 49.876C to temp_readings[3] and (000D838B) 84.462 to humidity_readings[3]...
+Adding (00081792) 51.151C to temp_readings[4] and (000DA39A) 85.244 to humidity_readings[4]...
+Adding (00078874) 44.163C to temp_readings[5] and (000D6F8C) 83.973 to humidity_readings[5]...
+Adding (0007F93C) 49.670C to temp_readings[6] and (000C3D44) 76.496 to humidity_readings[6]...
+Adding (0007E42B) 48.641C to temp_readings[7] and (000C3288) 76.234 to humidity_readings[7]...
+Adding (0007BD91) 46.756C to temp_readings[8] and (000D70B7) 84.002 to humidity_readings[8]...
+
+Sorting temperature and humidity readings into Low to High...
+
+Temp Table: (Low to High)
+temp_readings[1]: Temperature 44.163C  (00078874)
+temp_readings[2]: Temperature 46.756C  (0007BD91)
+temp_readings[3]: Temperature 46.835C  (0007BF30)
+temp_readings[4]: Temperature 47.453C  (0007CBD4)
+temp_readings[5]: Temperature 48.641C  (0007E42B)
+temp_readings[6]: Temperature 49.670C  (0007F93C)
+temp_readings[7]: Temperature 49.876C  (0007FD77)
+temp_readings[8]: Temperature 51.151C  (00081792)
+Averaging readings...
+Total: 384.54
+Average Temperature: 48.068C
+
+Humidity Table: (Low to High)
+humidity_readings[1]: Humidity 76.234%  (000C3288)
+humidity_readings[2]: Humidity 76.496%  (000C3D44)
+humidity_readings[3]: Humidity 79.123%  (000CA8E2)
+humidity_readings[4]: Humidity 83.973%  (000D6F8C)
+humidity_readings[5]: Humidity 84.002%  (000D70B7)
+humidity_readings[6]: Humidity 84.031%  (000D71E4)
+humidity_readings[7]: Humidity 84.462%  (000D838B)
+humidity_readings[8]: Humidity 85.244%  (000DA39A)
+Averaging readings...
+Total: 653.56
+Average Humidity: 81.695%
+                                                                                                                                                                                                             ✓
+
+  19/11/2023   16:29.19   /home/mobaxterm/hw4/My Code/temp_humidity_sensor   master  ./Temp_Humidity_Sensor
+ECE361 HW4 Problem 3
+Utilize IOM361_r2 to manipulate random temp and humidity values
+By Phil Nevins (pnevins@pdx.edu)
+Current working directory: /home/mobaxterm/hw4/My Code/temp_humidity_sensor
+
+Initializing the I/O registers...
+
+  ____  ____  ____  ____
+RedDC= 0% (  0), GrnDC= 0% (  0), BluDC= 0% (  0)       Enable=OFF
+Initialized successfully!
+
+Adding (00078C57) 44.353C to temp_readings[1] and (000D02C1) 81.317 to humidity_readings[1]...
+Adding (0007D0D0) 47.696C to temp_readings[2] and (000C92C8) 78.584 to humidity_readings[2]...
+Adding (0007D959) 48.113C to temp_readings[3] and (000D3ADE) 82.687 to humidity_readings[3]...
+Adding (00080D42) 50.647C to temp_readings[4] and (000C45B4) 76.702 to humidity_readings[4]...
+Adding (00081AA7) 51.301C to temp_readings[5] and (000C44BC) 76.678 to humidity_readings[5]...
+Adding (0008274D) 51.919C to temp_readings[6] and (000D0AAA) 81.510 to humidity_readings[6]...
+Adding (000777A5) 43.342C to temp_readings[7] and (000D3B26) 82.694 to humidity_readings[7]...
+Adding (00077828) 43.367C to temp_readings[8] and (000DAF99) 85.537 to humidity_readings[8]...
+
+Sorting temperature and humidity readings into Low to High...
+
+Temp Table: (Low to High)
+temp_readings[1]: Temperature 43.342C  (000777A5)
+temp_readings[2]: Temperature 43.367C  (00077828)
+temp_readings[3]: Temperature 44.353C  (00078C57)
+temp_readings[4]: Temperature 47.696C  (0007D0D0)
+temp_readings[5]: Temperature 48.113C  (0007D959)
+temp_readings[6]: Temperature 50.647C  (00080D42)
+temp_readings[7]: Temperature 51.301C  (00081AA7)
+temp_readings[8]: Temperature 51.919C  (0008274D)
+Averaging readings...
+Total: 380.74
+Average Temperature: 47.592C
+
+Humidity Table: (Low to High)
+humidity_readings[1]: Humidity 76.678%  (000C44BC)
+humidity_readings[2]: Humidity 76.702%  (000C45B4)
+humidity_readings[3]: Humidity 78.584%  (000C92C8)
+humidity_readings[4]: Humidity 81.317%  (000D02C1)
+humidity_readings[5]: Humidity 81.510%  (000D0AAA)
+humidity_readings[6]: Humidity 82.687%  (000D3ADE)
+humidity_readings[7]: Humidity 82.694%  (000D3B26)
+humidity_readings[8]: Humidity 85.537%  (000DAF99)
+Averaging readings...
+Total: 645.71
+Average Humidity: 80.714%
+                                                                                                                                                                                                             ✓
+
+  19/11/2023   16:29.20   /home/mobaxterm/hw4/My Code/temp_humidity_sensor   master  ./Temp_Humidity_Sensor
+ECE361 HW4 Problem 3
+Utilize IOM361_r2 to manipulate random temp and humidity values
+By Phil Nevins (pnevins@pdx.edu)
+Current working directory: /home/mobaxterm/hw4/My Code/temp_humidity_sensor
+
+Initializing the I/O registers...
+
+  ____  ____  ____  ____
+RedDC= 0% (  0), GrnDC= 0% (  0), BluDC= 0% (  0)       Enable=OFF
+Initialized successfully!
+
+Adding (000819A7) 51.253C to temp_readings[1] and (000C939D) 78.604 to humidity_readings[1]...
+Adding (0007E271) 48.557C to temp_readings[2] and (000C7CAE) 78.044 to humidity_readings[2]...
+Adding (0007B53B) 46.349C to temp_readings[3] and (000CF232) 80.913 to humidity_readings[3]...
+Adding (000802F2) 50.144C to temp_readings[4] and (000D41EB) 82.859 to humidity_readings[4]...
+Adding (0007E00E) 48.440C to temp_readings[5] and (000D7408) 84.083 to humidity_readings[5]...
+Adding (00078890) 44.168C to temp_readings[6] and (000DD80F) 86.525 to humidity_readings[6]...
+Adding (0007D7EB) 48.043C to temp_readings[7] and (000BE9A8) 74.454 to humidity_readings[7]...
+Adding (0007FF8C) 49.978C to temp_readings[8] and (000DEE7B) 87.072 to humidity_readings[8]...
+
+Sorting temperature and humidity readings into Low to High...
+
+Temp Table: (Low to High)
+temp_readings[1]: Temperature 44.168C  (00078890)
+temp_readings[2]: Temperature 46.349C  (0007B53B)
+temp_readings[3]: Temperature 48.043C  (0007D7EB)
+temp_readings[4]: Temperature 48.440C  (0007E00E)
+temp_readings[5]: Temperature 48.557C  (0007E271)
+temp_readings[6]: Temperature 49.978C  (0007FF8C)
+temp_readings[7]: Temperature 50.144C  (000802F2)
+temp_readings[8]: Temperature 51.253C  (000819A7)
+Averaging readings...
+Total: 386.93
+Average Temperature: 48.366C
+
+Humidity Table: (Low to High)
+humidity_readings[1]: Humidity 74.454%  (000BE9A8)
+humidity_readings[2]: Humidity 78.044%  (000C7CAE)
+humidity_readings[3]: Humidity 78.604%  (000C939D)
+humidity_readings[4]: Humidity 80.913%  (000CF232)
+humidity_readings[5]: Humidity 82.859%  (000D41EB)
+humidity_readings[6]: Humidity 84.083%  (000D7408)
+humidity_readings[7]: Humidity 86.525%  (000DD80F)
+humidity_readings[8]: Humidity 87.072%  (000DEE7B)
+Averaging readings...
+Total: 652.55
+Average Humidity: 81.569%
+
